@@ -88,7 +88,7 @@ return min_value, max_value
 - Retorna os valores finais mínimo e máximo, respectivamente, após ter analisado recursivamente as duas metades do array.
 
 ## Saída da Execução
-![alt text](saida-execucao.png)
+![alt text](assets/saida-execucao.png)
 
 
 ## Relatório Técnico - Complexidade Assíntótica
@@ -142,3 +142,14 @@ Logo:
 ***T(n) = O(n)***
 
 A partir disso, pode-se concluír que o custo total do algoritmo é dominado pelas chamadas recursivas, ou seja, a maior parte do custo vem de resolver os subproblemos e o custo externo a esse processo é irrelevante.
+
+### Diagrama de Execução
+
+#### Divisão e Conquista
+
+Para resovler o problema foi utilizado a técnica da divisão e conquista, a qual tem o objetivo de dividir o problema em subproblemas e combinar os resultados no final para alncaçar o resultado. A imagem abaixo ilustra esse método de solução:
+
+![alt text](assets/divisao-e-conquista.png)
+
+#### Exemplo de Execução
+![alt text](assets/diagrama-execucao.png)
